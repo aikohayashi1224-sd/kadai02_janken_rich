@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飴屋さん販促ツール「じゃんけんアプリ」</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="title">
+    <h1 style="text-align:center" class="a">飴屋さんとじゃんけんしよう</h1>
+    <h2 style="text-align:center" class="b">🍓🍓🍓ブラックバージョン🍓🍓🍓</h2>
+</section>
+
+<section class="game-section">
+    <div class="game-flex-container">
+        
+        <div class="player-side">
+            <h3 class="label">あなた</h3> <div class="hand-big">
+                <img id="player-hand-img" src="" alt="" style="display:none;">
+            </div>
+            <div id="controls" class="buttons">
+                <button onclick="rsp(0)"><img src="img/guu.png" alt="グー"></button>
+                <button onclick="rsp(1)"><img src="img/choki.png" alt="チョキ"></button>
+                <button onclick="rsp(2)"><img src="img/pa.png" alt="パー"></button>
+            </div>
+        </div>
+
+<div class="result-center-wrapper">
+    <div id="initial-view-group">
+        <img id="initial-center-img" src="img/center.png" alt="準備中">
+        <p class="start-message">勝負しましょう</p>
+    </div>
+
+    <div id="result-content" style="display:none;">
+        <img id="result-pic" src="" alt="">
+        <h2 id="judgment"></h2>
+
+        <!-- イカサマコンテンツを足す -->
+
+        <p id="ikasama-message" style="color: #ff3333; font-size: 0.9rem; font-weight: bold; margin-top: 5px;"></p>
+    </div>
+</div>
+
+        <div class="pc-side">
+            <h3 class="label">飴屋さん</h3> <div class="hand-big">
+                <img id="pc-hand-img" src="" alt="" style="display:none;">
+            </div>
+            <div id="pc-initial-view" class="pc-static-imgs">
+                <img src="img/guu.png" alt="グー">
+                <img src="img/choki.png" alt="チョキ">
+                <img src="img/pa.png" alt="パー">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <script src="js/test.js"></script>
+    
+</body>
+</html>
