@@ -7,6 +7,7 @@
 - Richでは、イカサマ演出として、85％の負け枠で負けたときにあおる文言がフラッシュする仕組みを追加
 
 ## ③アプリのデプロイURL
+https://aikohayashi1224-sd.github.io/kadai02_janken_rich/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 
